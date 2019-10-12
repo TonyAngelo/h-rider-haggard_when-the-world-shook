@@ -6,55 +6,25 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-abbr.name{
-	white-space: nowrap;
+section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
+	display: block;
+	font-size: .75em;
+	font-weight: normal;
 }
 
-p.tab1{
+p.indent{
 	text-indent: 5em;
 }
 
-p.tab2{
+p .indent{
 	text-indent: 10em;
-}
-
-p.tab3{
-	text-indent: 15em;
 }
 
 p.signature{
 	text-indent: 15em;
 }
 
-[epub|type~="z3998:poem"] p{
-	text-align: left;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:poem"] p > span{
-	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
-}
-
-[epub|type~="z3998:poem"] p > span + br{
-	display: none;
-}
-
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
-[epub|type~="z3998:poem"] + p{
-	text-indent: 0;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
-}
-
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
 }
